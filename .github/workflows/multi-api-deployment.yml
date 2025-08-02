@@ -23,7 +23,7 @@ jobs:
       contents: read
 
     steps:
-      - name: Checkout dev-ec2-final codebase
+      - name: Checkout feature/btl-48 codebase
         uses: actions/checkout@v4
         with:
           ref: feature/btl-48
