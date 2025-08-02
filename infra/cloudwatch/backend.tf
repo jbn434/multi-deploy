@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "my-terraform-state-bckt4321"
+    bucket = "idlms-stage-built-artifact"
     key    = "dev/cloudwatch/terraform.tfstate"
     region = "eu-west-1"
   }
